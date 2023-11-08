@@ -1,0 +1,77 @@
+main{
+    background-image: url(./assets/fondo.png);
+
+}
+
+
+.bg-nav{
+    background-color:#6E42A0;
+}
+a{
+    color: #74E6D1 !important
+}
+
+.logo{
+    width: 50px;
+}
+
+h2{
+    font-family: 'DM serif display' ;
+    font-size: 'regular 400 italic';
+}
+
+h3{
+    font-family: 'DM serif display' ;
+    font-size: 'regular';
+}
+
+p{
+    font-family: 'Atma' ;
+    font-size: 23px ;
+}
+.seccion-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.img-container{
+    width: 90vw;
+   
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.impulsa-box{
+    text-align: center;
+    color: white;
+    padding: 14px;
+    
+}
+
+footer{
+    text-align: center;
+    background: #6E42A0;
+    color: white;
+    padding: 15px;
+}
+
+
+@media(min-width:1024px) {
+    .logo{
+        width: 70px;
+    }
+    .impulsa-box p{
+        background-color: #6e42a081;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 30px 72px;
+    }
+    .img-container img{
+        height: 27vw;
+    }
+}

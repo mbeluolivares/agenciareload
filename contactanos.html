@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contactanos.css"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+</head>
+<body>
+
+        <header>
+          <nav class="navbar navbar-expand-lg bg-nav">
+            <div class="container-fluid">
+              <img class="logo" src="./assets/logo blanco AR.png" alt="logo">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Ver más
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./contactanos.html">Contactanos</a></li>
+                      <li><a class="dropdown-item" href="./fotografia.html">Fotografia</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+     
+      <section>
+
+        <h2>Formulario de Contacto</h2>
+        
+        <div class="formulario">
+
+        <form>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Ingrese su nombre">
+            
+            <br>
+            
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="Ingrese su email">
+            
+            <br>
+            
+            <label for="tel">Teléfono:</label><br>
+            <input type="text" id="tel" name="tel" placeholder="Ingrese su número de telefono">
+            
+            <br>
+            
+            <label for="comment">Comentario</label>
+            
+            <br>
+            
+            <textarea type="text" id="comment" name="comment"> Ingrese un comentario </textarea>
+            
+            <br>
+            
+            <input type="checkbox" name="tick" value="tick">
+            
+           <label for="unselector">Deseo ser contactado a la brevedad</label>
+           <br>
+           <select name="select" >
+            <option value="value1">Muy Buena</option>
+            <option value="value2" selected>Buena</option>
+            <option value="value3">Regular</option>
+          </select>
+            <br>
+            <button type="button">Enviar</button>
+            <button type="button">Reset</button>
+          </form>
+        </div>
+
+      </section>
+  
+    
+
+<footer>
+    <p>
+      Seguinos en nuestras redes
+    </p>
+
+    <a href="https://www.instagram.com/agencia_reload/"> Instagram
+    </a>
+     <br>
+    <a href="https://walink.co/1a5df2"> WhatsApp
+
+    </a>
+  </footer>
+</body>
+</html>

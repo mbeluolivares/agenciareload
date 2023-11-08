@@ -1,0 +1,48 @@
+main{
+    background-image: url(./assets/fondo.png);
+
+}
+
+
+.bg-nav{
+    background-color:#6E42A0;
+}
+
+a{
+    color: #74E6D1 !important
+}
+
+.logo{
+    width: 50px;
+}
+
+h2{
+    color: #6E42A0 !important
+
+}
+
+section{
+    margin: 5px;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    background: #6E42A0;
+    color: white;
+    padding: 15px;
+}
+
+
+@media(min-width:1024px){
+  div.formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+      }
+      h2{
+        text-align: center;
+      }
+}

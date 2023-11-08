@@ -1,0 +1,67 @@
+main{
+    background-image: url(./assets/fondo.png);
+
+}
+
+
+.bg-nav{
+    background-color:#6E42A0;
+}
+
+a{
+    color: #74E6D1 !important
+}
+
+.logo{
+    width: 50px;
+}
+
+img{
+    width: 80vw;
+    height: auto;
+    padding: 7px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.img-fotografia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+h2{
+    color: white !important
+}
+
+.galeria{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background: #6E42A0;
+    color: white;
+    padding: 15px;
+}
+
+@media(min-width:1024px){
+
+    .sesion{
+        width: 250px;
+        height: 250px;
+    }
+
+    .img-fotografia {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+}
